@@ -1,0 +1,111 @@
+:root {
+    --main-bg-color: #2874f0;
+}
+
+
+/* Header */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background: var(--main-bg-color);
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 83px;
+    align-items: center;
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 30vw;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 16px 0 56px;
+    padding: 0 12px;
+}
+
+.search btn {
+    font-weight: 900;
+}
+
+
+/* Main */
+
+.slider {
+    margin: auto;
+    width: 12vw;
+    margin: 12px 0;
+}
+
+.card {
+    max-width: 91vw;
+    margin: 12px auto;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.card-item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.container {
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+
+/* Footer */
+
+footer {
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
